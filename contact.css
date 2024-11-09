@@ -1,0 +1,235 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+background-color: #3d3b3b;
+color: #fff;
+padding:  0;
+text-align: center;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1000;
+transition: background-color 1s;
+}
+
+nav ul li {
+display: inline;
+margin: 0 px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+nav ul li a:hover {
+color: aquamarine;
+}
+
+nav ul li img {
+height: 20px;
+width: 20px;
+border-radius: 50%;
+
+float: left;
+}
+
+
+header {
+background-color: #333;
+color: #fff;
+padding: 10px 0;
+text-align: center;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1000;
+transition: background-color 1s;
+}
+
+
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+nav ul li {
+display: inline;
+margin: 0 px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+nav ul li a:hover {
+color: aquamarine;
+}
+
+nav ul li img {
+height: 20px;
+width: 20px;
+border-radius: 50%;
+margin-left: 25px;
+float: left;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f4f4f9 25%, #e2e2e2 100%);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+    animation: slideIn 1s ease-in-out;
+}
+
+main:hover {
+    transform: scale(1.02);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    animation: fadeInUp 1s ease-in-out;
+   
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ff22;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    animation: bounceIn 1s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    animation: fadeIn 1s ease-in-out;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:url(https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif) top right no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f4f4f9 25%, #e2e2e2 100%);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+header {
+background-color: #333;
+color: #fff;
+padding:  0;
+text-align: center;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1000;
+transition: background-color 1s;
+}
+
+
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+nav ul li {
+display: inline;
+margin: 0 px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+nav ul li a:hover {
+color: aquamarine;
+}
+
+nav ul li img {
+height: 20px;
+width: 20px;
+border-radius: 50%;
+margin-left: 25px;
+float: left;
+}
+

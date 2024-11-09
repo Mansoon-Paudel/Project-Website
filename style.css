@@ -157,7 +157,7 @@ section.visible {
     max-width: 600px;
 }
 
-/* Skills Section */
+
 #skills {
     text-align: center;
     padding: 40px 20px;
@@ -304,4 +304,11 @@ form button:hover {
         height: 200px;
         width: 200px;
     }
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    animation: fadeIn 1s ease-in-out;
 }

@@ -5,7 +5,7 @@ const preloader = document.querySelector('.preloader');
       preloader.remove();
     }, 1000); 
   });
- 
+
 
 window.addEventListener('scroll', function() {
     const header = document.querySelector('header');
